@@ -17,6 +17,8 @@ from app.models.currency import Currency
 from app.models.account import Account, AccountType
 from app.models.operation_type import OperationType
 from app.models.user import User
+from app.models.operation import Operation
+from app.models.journal_entry import JournalEntry
 from app.utils.security import get_password_hash
 
 
